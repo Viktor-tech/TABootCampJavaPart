@@ -2,7 +2,7 @@ package com.bootcampexcercise.module2.acitivity;
 
 public class NumToWordsWithMethodCalling {
     public static void main(String args[]) {
-        NumToWords numToWordsLogic = new NumToWords();
+
         numToWordsLogic(5);
         numToWordsLogic(100);
         numToWordsLogic(1);
