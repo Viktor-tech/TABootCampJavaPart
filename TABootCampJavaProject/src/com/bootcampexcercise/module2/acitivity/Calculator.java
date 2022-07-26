@@ -18,6 +18,7 @@ public class Calculator {
     }
     private static int subtract(int x, int y) {
         //TODO implement subtraction
+        int diff = x - y;
         return diff;
     }
     private static int multiply(int[] numbers) {
@@ -30,10 +31,13 @@ public class Calculator {
     private static int divide(int x, int y) {
         int divValue = 0;
         if (x == 0 && y == 0) {
+            System.out.println("Dividing 0 with 0 in not possible");
             //TODO complete the code so message is printed that dividing 0 with 0 is not possible
         } else if (y == 0) {
+            System.out.println("Division by 0 is not possible");
             //TODO complete the code so message is printed that division by 0 is not possible
         } else {
+            divValue = x / y;
             //TODO complete the code so that division is done
         }
         return divValue;
