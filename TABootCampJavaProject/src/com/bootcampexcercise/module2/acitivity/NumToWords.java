@@ -1,61 +1,40 @@
 package com.bootcampexcercise.module2.acitivity;
-
-/**
- * Extended version of Activity 4
- */
 public class NumToWords {
-
-    public static void main(String args[]) {
-        switchCaseEx(5); // Activity 4
-        switchCaseEx(100); // Variation for default section execution
-        switchCaseEx(1);
-    }
-
-    public static void switchCaseEx(int x) {
-        switch (x) {
-            case 1: {
-                System.out.println("ONE");
+    public static void main (String []args){
+        int x = 5;
+        switch(x) {
+            case 1:
+                System.out.println("One");
                 break;
-            }
-            case 2: {
-                System.out.println("TWO");
+            case 2:
+                System.out.println("Two");
                 break;
-            }
-            case 3: {
-                System.out.println("THREE");
+            case 3:
+                System.out.println("Three");
                 break;
-            }
-            case 4: {
-                System.out.println("FOUR");
+            case 4:
+                System.out.println("Four");
                 break;
-            }
-            case 5: {
-                System.out.println("FIVE");
+            case 5:
+                System.out.println("Five");
                 break;
-            }
-            case 6: {
-                System.out.println("SIX");
+            case 6:
+                System.out.println("Six");
                 break;
-            }
-            case 7: {
-                System.out.println("SEVEN");
+            case 7:
+                System.out.println("Seven");
                 break;
-            }
-            case 8: {
-                System.out.println("EIGHT");
+            case 8:
+                System.out.println("Eight");
                 break;
-            }
-            case 9: {
-                System.out.println("NINE");
+            case 9:
+                System.out.println("Nine");
                 break;
-            }
-            case 10: {
-                System.out.println("TEN");
+            case 10:
+                System.out.println("Ten");
                 break;
-            }
-            default: {
-                System.out.println("Given value is not in the range 1-10");
-            }
+            default: System.out.println("Given value is not in the range 1-10");
         }
+        ;
     }
 }
