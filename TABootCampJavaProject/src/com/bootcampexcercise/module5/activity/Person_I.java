@@ -1,4 +1,4 @@
-package module5.activity;
+package com.bootcampexcercise.module5.activity;
 
 public class Person_I {
 
