@@ -11,7 +11,6 @@ public class Student_P extends Person_P {
 
     //Behavior - default constructor
     public Student_P() {
-
     }
 
     // getter for int grade

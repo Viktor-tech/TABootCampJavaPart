@@ -15,9 +15,11 @@ public abstract class Shape {
 
     public abstract double calculatePerimeter();
 
-    public void setColor(String c) {
-        color = c;
+
+    public void setColor(String name) {
+        color = name;
     }
+
 
     public String getColor() {
         return color;
