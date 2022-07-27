@@ -1,4 +1,4 @@
-package com.bootcampexcercise.module3;
+package com.bootcampexcercise.module3.activity;
 
 import java.util.Date;
 

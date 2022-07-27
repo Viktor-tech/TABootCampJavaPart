@@ -1,17 +1,17 @@
-package com.bootcampexcercise.module5.sample;
+package com.bootcampexcercise.module5.sample.Inheritance;
 
-/* Student_P class is the sub class of Person class
+/* Student_I class is the sub class of Person class
  * Attributes : school, grade
  */
-public class Student_P extends Person_P {
+public class Student_I extends Person_I {
 
     //Attributes
     private int grade;
     private String school;
 
     //Behavior - default constructor
-    public Student_P() {
-
+    public Student_I() {
+        System.out.println("I'm Student_I constructor");
     }
 
     // getter for int grade
@@ -34,14 +34,9 @@ public class Student_P extends Person_P {
         this.school = school;
     }
 
-    // this is an example of method overloading
-    public void address(String city, String state, long streetNum, String streetName) {
-        System.out.println("*** address() method called in class Student_P ***");
-    }
-
-    // This method is overridden from Person class
     public void announce() {
-        System.out.println("I am a Student");
+        super.announce();  // calls announce() method of Person class
+        System.out.println("Inside Student Class");
     }
 
 }

@@ -1,4 +1,4 @@
-package com.bootcampexcercise.module3;
+package com.bootcampexcercise.module3.activity;
 
 /**
  * @author disha.k.mehta

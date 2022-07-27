@@ -1,4 +1,4 @@
-package com.bootcampexcercise.module5.sample;
+package com.bootcampexcercise.module5.sample.Inheritance;
 
 /* Person_I class is the superclass
  * Attributes : name, age

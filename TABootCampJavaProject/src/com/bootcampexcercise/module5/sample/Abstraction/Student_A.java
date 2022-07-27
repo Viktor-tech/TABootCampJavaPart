@@ -1,17 +1,15 @@
-package com.bootcampexcercise.module5.sample;
+package com.bootcampexcercise.module5.sample.Abstraction;
 
-/* Student_I class is the sub class of Person class
- * Attributes : school, grade
- */
-public class Student_I extends Person_I {
+public class Student_A extends Person_A {
 
     //Attributes
     private int grade;
     private String school;
+    private String name;
 
     //Behavior - default constructor
-    public Student_I() {
-        System.out.println("I'm Student_I constructor");
+    public Student_A() {
+        System.out.println("I'm Student_A constructor");
     }
 
     // getter for int grade
@@ -34,9 +32,13 @@ public class Student_I extends Person_I {
         this.school = school;
     }
 
-    public void announce() {
-        super.announce();  // calls announce() method of Person class
-        System.out.println("Inside Student Class");
+    public String getName() {
+        return name;
     }
+
+    public void setName(String name) {
+        this.name = "<S>" + name;
+    }
+
 
 }
