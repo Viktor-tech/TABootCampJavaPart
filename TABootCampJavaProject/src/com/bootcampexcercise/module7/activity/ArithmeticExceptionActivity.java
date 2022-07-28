@@ -34,6 +34,7 @@ public class ArithmeticExceptionActivity {
         }
 
         //TODO: 5- try to call catchMe with 10 and 2 now and see which messages get printed.
+        //done within line 14
 
     }
 
