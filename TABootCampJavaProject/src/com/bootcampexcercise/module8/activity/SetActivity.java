@@ -30,10 +30,10 @@ public class SetActivity {
 
         }
 
-    void print(Set set) {
+    void print(Set setOfNames) {
         //TODO: 3 - Type code to print this set
         //Notice the order in which elements get printed.
-        for(Object setNames : set){
+        for(Object setNames : setOfNames){
             System.out.println(setNames.toString());
         }
     }
