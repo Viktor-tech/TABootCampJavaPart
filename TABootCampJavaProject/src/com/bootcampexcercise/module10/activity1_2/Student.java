@@ -1,4 +1,6 @@
-package com.bootcampexcercise.module10.activity;
+package com.bootcampexcercise.module10.activity1_2;
+
+import com.bootcampexcercise.module10.activity1_2.Person;
 
 public class Student extends Person {
 

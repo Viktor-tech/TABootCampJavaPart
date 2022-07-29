@@ -1,4 +1,4 @@
-package com.bootcampexcercise.module10.activity;
+package com.bootcampexcercise.module10.activity3;
 
 public class CustomException extends Exception {
     public String getMessage() {
