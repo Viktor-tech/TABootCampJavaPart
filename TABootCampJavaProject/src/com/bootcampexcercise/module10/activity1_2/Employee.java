@@ -1,6 +1,6 @@
 package com.bootcampexcercise.module10.activity1_2;
 
-import com.bootcampexcercise.module10.activity1_2.Person;
+import java.util.List;
 
 public class Employee extends Person {
 
@@ -37,7 +37,7 @@ public class Employee extends Person {
     }
 
     public double getSalary() {
-        return this.salary = salary;
+        return salary = salary;
     }
 
     public void setSalary(double salary) {

@@ -15,7 +15,6 @@ public class AbstractActivity {
         s.setSchoolName("Latvian University");
 
 
-
         e.announce();
         s.announce();
 
