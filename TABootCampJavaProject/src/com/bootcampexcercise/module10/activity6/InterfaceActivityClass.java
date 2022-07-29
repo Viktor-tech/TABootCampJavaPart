@@ -3,8 +3,8 @@ package com.bootcampexcercise.module10.activity6;
 public class InterfaceActivityClass {
     public static void main(String[] args) {
 
-        Vehicle bike = new Bike();
-        Vehicle car = new Car();
+        Bike bike = new Bike();
+        Car car = new Car();
 
         bike.start();
         bike.stop();
