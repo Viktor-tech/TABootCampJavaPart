@@ -11,7 +11,7 @@ public abstract class Person {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -19,33 +19,14 @@ public abstract class Person {
     }
 
     public int getAge() {
-        return age;
+        return this.age;
     }
 
     public void setAge(int age) {
         this.age = age;
     }
 
-    public abstract String getJobTitle();
-
-    public abstract void setJobTitle(String jobTitle);
-
-    public abstract String getCompany();
-
-    public abstract void setCompany(String jobTitle);
-
-    public abstract double getSalary();
-
-    public abstract void setSalary(double salary);
-
-    public abstract String getSchoolName();
-
-    public abstract void setSchoolName(String schoolName);
-
-
-    public void announce() {
-        System.out.println("My name is " + name + " and my age is " + age);
-    }
+    public abstract void announce();
 
 
 }

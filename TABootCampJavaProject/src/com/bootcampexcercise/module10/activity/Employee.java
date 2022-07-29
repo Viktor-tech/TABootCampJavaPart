@@ -12,14 +12,14 @@ public class Employee extends Person {
         this.salary = 0;
     }
 
-     public Employee(String jobTitle, String company, double salary) {
+    public Employee(String jobTitle, String company, double salary) {
         this.jobTitle = jobTitle;
         this.company = company;
         this.salary = salary;
     }
 
     public String getJobTitle() {
-        return jobTitle;
+        return this.jobTitle;
     }
 
     public void setJobTitle(String jobTitle) {
@@ -27,7 +27,7 @@ public class Employee extends Person {
     }
 
     public String getCompany() {
-        return company;
+        return this.company = company;
     }
 
     public void setCompany(String company) {
@@ -35,27 +35,15 @@ public class Employee extends Person {
     }
 
     public double getSalary() {
-        return salary;
+        return this.salary = salary;
     }
 
     public void setSalary(double salary) {
         this.salary = salary;
     }
 
-
-
-
-    public String getSchoolName() {
-        return null;
-    }
-
-    public void setSchoolName(String schoolName) {
-
-    }
-
     public void announce() {
-        System.out.println("My name is " + getName() + " and I am " + getAge() + " years old." +
-                " I work as " + jobTitle + " in " + company + " and my salary is " + salary);
+        System.out.println("My name is " + getName() + " and I am " + getAge() + " years old." + " I work as " + getJobTitle() + " in " + getCompany() + " and my salary is " + getSalary());
     }
 
 }

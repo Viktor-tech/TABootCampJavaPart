@@ -8,33 +8,8 @@ public class Student extends Person {
     this.schoolName = "no name";
     }
 
-    public String getJobTitle() {
-        return null;
-    }
-
-    public void setJobTitle(String jobTitle) {
-
-    }
-
-    public String getCompany() {
-        return null;
-    }
-
-    public void setCompany(String company) {
-
-    }
-
-
-    public double getSalary() {
-        return 0;
-    }
-
-
-    public void setSalary(double salary) {
-    }
-
-    public String getSchoolName() {
-        return schoolName;
+      public String getSchoolName() {
+        return this.schoolName;
     }
 
 
@@ -44,7 +19,7 @@ public class Student extends Person {
     }
 
     public void announce() {
-        System.out.println("My name is " + getName() + " and my age is " + getAge()+ ". I am studying in " + getSchoolName());
+        System.out.println("I am studying in " + getSchoolName());
     }
 
 }

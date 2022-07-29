@@ -3,19 +3,18 @@ package com.bootcampexcercise.module10.activity;
 public class AbstractActivity {
 
     public static void main(String[] args) {
-        Person e = new Employee();
-        Person s = new Student();
 
-        e.setName("Edgars");
-        e.setAge(23);
-        e.setJobTitle("Developer");
-        e.setCompany("Microsoft");
-        e.setSalary(1500);
+        Employee e = new Employee();
+        Student s = new Student();
 
-        s.setName("Janis");
-        s.setAge(15);
-        s.setJobTitle("Student");
-        s.setSchoolName("Technical University");
+        e.setName("Janis");
+        e.setAge(30);
+        e.setJobTitle("Manager");
+        e.setCompany("Swedbank");
+        e.setSalary(1000.50);
+        s.setSchoolName("Latvian University");
+
+
 
         e.announce();
         s.announce();
